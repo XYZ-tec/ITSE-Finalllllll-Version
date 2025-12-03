@@ -1,0 +1,360 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="triPt9jeqdMo8csOUhKf">
+    <mxGraphModel dx="1028" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kKov02maSdggeF3UrL0d-100" value="Teacher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="35" height="2554" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-101" value="AttendanceView&#xa;(HTML)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="370" y="20" width="150" height="2554" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-102" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-101" vertex="1">
+          <mxGeometry x="70" y="107" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-103" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-101" vertex="1">
+          <mxGeometry x="70" y="419" width="10" height="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-104" value="AttendanceController&#xa;(JavaScript)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
+          <mxGeometry x="756" y="20" width="176" height="2554" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-105" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-104" vertex="1">
+          <mxGeometry x="83" y="159" width="10" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-106" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-104" vertex="1">
+          <mxGeometry x="83" y="471" width="10" height="1906" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-107" value="DataValidator&#xa;(JavaScript)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1132" y="20" width="150" height="2554" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-108" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-107" vertex="1">
+          <mxGeometry x="70" y="523" width="10" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-109" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-107" vertex="1">
+          <mxGeometry x="70" y="987" width="10" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-110" value="StorageManager&#xa;(Local Storage)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry x="1332" y="20" width="150" height="2554" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-111" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-110" vertex="1">
+          <mxGeometry x="70" y="211" width="10" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-112" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-110" vertex="1">
+          <mxGeometry x="70" y="1369" width="10" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-113" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-110" vertex="1">
+          <mxGeometry x="70" y="1607" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-114" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-110" vertex="1">
+          <mxGeometry x="70" y="1711" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-115" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-110" vertex="1">
+          <mxGeometry x="70" y="2047" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-116" value="AttendanceCalculator&#xa;(JavaScript)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
+          <mxGeometry x="1661" y="20" width="177" height="2554" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-117" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-116" vertex="1">
+          <mxGeometry x="83" y="1555" width="10" height="332" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-118" value="NotificationEngine&#xa;(JavaScript)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
+          <mxGeometry x="1888" y="20" width="153" height="2554" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-119" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="kKov02maSdggeF3UrL0d-118" vertex="1">
+          <mxGeometry x="71" y="1995" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-120" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" parent="1" vertex="1">
+          <mxGeometry x="829" y="1937" width="1238" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-121" value="[Attendance Below 80% Threshold]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="kKov02maSdggeF3UrL0d-120" vertex="1">
+          <mxGeometry x="30" width="1208" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-122" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" parent="1" vertex="1">
+          <mxGeometry x="84" y="1161" width="1993" height="1308" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-123" value="[Outside 7-Day Correction Window]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="kKov02maSdggeF3UrL0d-122" vertex="1">
+          <mxGeometry x="30" width="1963" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-124" value="[Within Correction Window]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" parent="kKov02maSdggeF3UrL0d-122" vertex="1">
+          <mxGeometry y="155" width="1993" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-125" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" parent="1" vertex="1">
+          <mxGeometry x="74" y="779" width="2013" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-126" value="[Validation Failed]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="kKov02maSdggeF3UrL0d-125" vertex="1">
+          <mxGeometry x="30" width="1983" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-127" value="[Validation Success]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" parent="kKov02maSdggeF3UrL0d-125" vertex="1">
+          <mxGeometry y="155" width="2013" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-128" value="Select Course and Date" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-100" target="kKov02maSdggeF3UrL0d-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="279" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-129" value="loadStudentList(courseId, date)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-102" target="kKov02maSdggeF3UrL0d-105" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-130" value="getEnrolledStudents(courseId)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-105" target="kKov02maSdggeF3UrL0d-111" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1136" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-131" value="return studentList[]" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-110" target="kKov02maSdggeF3UrL0d-105" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1137" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-132" value="displayStudentList(studentList)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-105" target="kKov02maSdggeF3UrL0d-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-133" value="Show Student List" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-102" target="kKov02maSdggeF3UrL0d-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-134" value="Mark Attendance (Present/Absent/Late)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-100" target="kKov02maSdggeF3UrL0d-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="279" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-135" value="submitAttendance(attendanceData)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-103" target="kKov02maSdggeF3UrL0d-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-136" value="validateAttendanceData(attendanceData)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-108" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1036" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-137" value="checkRequiredFields()" style="curved=1;endArrow=block;rounded=0;" parent="1" source="kKov02maSdggeF3UrL0d-108" target="kKov02maSdggeF3UrL0d-108" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1262" y="595" />
+              <mxPoint x="1262" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-138" value="validateDateFormat()" style="curved=1;endArrow=block;rounded=0;" parent="1" source="kKov02maSdggeF3UrL0d-108" target="kKov02maSdggeF3UrL0d-108" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1262" y="677" />
+              <mxPoint x="1262" y="707" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-139" value="validationResult" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-107" target="kKov02maSdggeF3UrL0d-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1037" y="759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-140" value="showError(&quot;Invalid Attendance Data&quot;)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-141" value="Display Error Message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-103" target="kKov02maSdggeF3UrL0d-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="909" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-142" value="checkCorrectionWindow(date)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1036" y="1007" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-143" value="calculateDaysDifference()" style="curved=1;endArrow=block;rounded=0;" parent="1" source="kKov02maSdggeF3UrL0d-109" target="kKov02maSdggeF3UrL0d-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1262" y="1059" />
+              <mxPoint x="1262" y="1089" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-144" value="isWithin7Days" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-107" target="kKov02maSdggeF3UrL0d-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1037" y="1141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-145" value="showError(&quot;Correction Window Expired&quot;)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="1239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-146" value="Display Error Message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-103" target="kKov02maSdggeF3UrL0d-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-147" value="saveAttendance(attendanceData)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1136" y="1389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-148" value="localStorage.setItem(key, data)" style="curved=1;endArrow=block;rounded=0;" parent="1" source="kKov02maSdggeF3UrL0d-112" target="kKov02maSdggeF3UrL0d-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1462" y="1441" />
+              <mxPoint x="1462" y="1471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-149" value="return saveStatus" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-110" target="kKov02maSdggeF3UrL0d-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1137" y="1523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-150" value="calculateAttendancePercentage(studentId, courseId)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1307" y="1575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-151" value="getTotalClasses(courseId)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-117" target="kKov02maSdggeF3UrL0d-113" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1588" y="1627" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-152" value="return totalClasses" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-110" target="kKov02maSdggeF3UrL0d-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1587" y="1679" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-153" value="getPresentClasses(studentId, courseId)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-117" target="kKov02maSdggeF3UrL0d-114" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1588" y="1731" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-154" value="return presentClasses" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-110" target="kKov02maSdggeF3UrL0d-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1587" y="1783" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-155" value="percentage = (present/total) * 100" style="curved=1;endArrow=block;rounded=0;" parent="1" source="kKov02maSdggeF3UrL0d-117" target="kKov02maSdggeF3UrL0d-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1804" y="1835" />
+              <mxPoint x="1804" y="1865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-156" value="return percentage" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-116" target="kKov02maSdggeF3UrL0d-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1308" y="1917" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-157" value="triggerLowAttendanceAlert(studentId, percentage)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1415" y="2015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-158" value="getStudentEmail(studentId)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-119" target="kKov02maSdggeF3UrL0d-115" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1695" y="2067" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-159" value="return studentEmail" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-110" target="kKov02maSdggeF3UrL0d-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1694" y="2119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-160" value="composeEmailMessage()" style="curved=1;endArrow=block;rounded=0;" parent="1" source="kKov02maSdggeF3UrL0d-119" target="kKov02maSdggeF3UrL0d-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2019" y="2171" />
+              <mxPoint x="2019" y="2201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-161" value="sendEmailNotification()" style="curved=1;endArrow=block;rounded=0;" parent="1" source="kKov02maSdggeF3UrL0d-119" target="kKov02maSdggeF3UrL0d-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2019" y="2253" />
+              <mxPoint x="2019" y="2283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-162" value="alertSent" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-118" target="kKov02maSdggeF3UrL0d-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1416" y="2335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-163" value="showSuccess(&quot;Attendance Saved Successfully&quot;)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-106" target="kKov02maSdggeF3UrL0d-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="2397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kKov02maSdggeF3UrL0d-164" value="Display Success Message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="kKov02maSdggeF3UrL0d-103" target="kKov02maSdggeF3UrL0d-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="2449" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
