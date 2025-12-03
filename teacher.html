@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Portal - Teacher Dashboard</title>
+    <meta name="description" content="Campus Portal Teacher/Admin Dashboard - Manage courses, grades, attendance, and student queries.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+    <div class="floating"></div>
+    <div class="floating"></div>
+    <div class="floating"></div>
+    
+    <div class="app-container" id="app-container">
+        <header class="app-header">
+            <div class="header-left">
+                <div class="logo">CP</div>
+                <div class="app-title">
+                    <h1>Campus Portal</h1>
+                    <p>Manage your academic journey</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="user-info">
+                    <div class="user-avatar" id="user-avatar" data-testid="text-user-avatar">U</div>
+                    <div class="user-details">
+                        <div class="user-name" id="user-name" data-testid="text-user-name">User Name</div>
+                        <div class="user-role" id="user-role" data-testid="text-user-role">Teacher</div>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <div class="icon-btn" id="notifications-btn" data-testid="button-notifications">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="icon-btn" id="btn-logout" data-testid="button-logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="app-main">
+            <aside class="app-sidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Navigation</div>
+                    <div class="nav-items">
+                        <div class="nav-item active" data-target="dashboard" data-testid="nav-dashboard">
+                            <i class="fas fa-home"></i>
+                            <span>Dashboard</span>
+                        </div>
+                        <div class="nav-item" data-target="profile" data-testid="nav-profile">
+                            <i class="fas fa-user"></i>
+                            <span>Profile</span>
+                        </div>
+                        <div class="nav-item teacher-only" data-target="teacher-courses" data-testid="nav-teacher-courses">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>My Courses</span>
+                        </div>
+                        <div class="nav-item teacher-only" data-target="grade-management" data-testid="nav-grade-management">
+                            <i class="fas fa-calculator"></i>
+                            <span>Grade Management</span>
+                        </div>
+                        <div class="nav-item teacher-only" data-target="attendance-management" data-testid="nav-attendance-management">
+                            <i class="fas fa-user-check"></i>
+                            <span>Attendance Management</span>
+                        </div>
+                        <div class="nav-item teacher-only" data-target="query-management" data-testid="nav-query-management">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Query Management</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sidebar-section admin-section" id="admin-section">
+                    <div class="sidebar-title">Admin Tools</div>
+                    <div class="nav-items">
+                        <div class="nav-item admin-only" data-target="manage-courses" data-testid="nav-manage-courses">
+                            <i class="fas fa-cog"></i>
+                            <span>Manage Courses</span>
+                        </div>
+                        <div class="nav-item admin-only" data-target="manage-users" data-testid="nav-manage-users">
+                            <i class="fas fa-users"></i>
+                            <span>Manage Users</span>
+                        </div>
+                        <div class="nav-item admin-only" data-target="performance-reports" data-testid="nav-performance-reports">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Performance Reports</span>
+                        </div>
+                        <div class="nav-item admin-only" data-target="complaint-management" data-testid="nav-complaint-management">
+                            <i class="fas fa-gavel"></i>
+                            <span>Complaint Management</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            
+            <main class="app-content">
+                <div class="content-header">
+                    <div class="content-title">
+                        <h2 id="content-title">Dashboard</h2>
+                        <p id="content-subtitle">Welcome to your personalized dashboard</p>
+                    </div>
+                    <div class="content-actions" id="content-actions"></div>
+                </div>
+                
+                <div id="content-area" data-testid="content-area"></div>
+            </main>
+        </div>
+    </div>
+    
+    <div id="modal-container"></div>
+    
+    <script src="teacher.js"></script>
+</body>
+</html>
